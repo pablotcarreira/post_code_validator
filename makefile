@@ -1,7 +1,7 @@
 IMAGE_NAME = post_code_validator
 IMAGE_TAG = latest
 
-.PHONY: build run start stop logs rm
+.PHONY: build start stop logs rm
 
 # Build the Docker image
 build:
