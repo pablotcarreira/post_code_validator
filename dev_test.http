@@ -1,0 +1,15 @@
+POST http://0.0.0.0:3500/v1/validate
+Content-Type: application/json
+
+{
+  "post_code": "DA6 8HD",
+  "strict": true
+}
+
+
+###
+GET http://127.0.0.1:3500/health
+
+
+###
+POST http://192.168.0.1:3500/v1/update_cache
